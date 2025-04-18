@@ -1,0 +1,19 @@
+name: backtester
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - pyyaml
+  - pytest
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - plotly
+    - streamlit
+    - yfinance
+
